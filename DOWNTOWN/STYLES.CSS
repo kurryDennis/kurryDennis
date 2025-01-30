@@ -1,0 +1,66 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #6A0DAD; /* Purple background */
+    color: #FFD700; /* Goldish text */
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #4B0082; /* Slightly darker purple for the navbar */
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FFD700; /* Goldish text */
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    color: #FFFFFF; /* White on hover */
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #4B0082; /* Same dark purple for sections */
+    border-radius: 8px;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4B0082;
+    color: #FFD700;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
